@@ -1,0 +1,56 @@
+
+/* 1. Standardize
+----------------------------------------------------------------------------- */
+
+	/* Reset */
+	
+	article,
+	body,
+	div,
+	footer,
+	header,
+	h1,
+	h2,
+	h3,
+	time { margin: 0; padding: 0; }
+	
+	/* HTML5 */
+	
+	article,
+	footer,
+	header { display: block; }
+	
+	/* Base */
+	
+	html { overflow-y: scroll; }
+	body { color: #333; font: 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif; text-rendering: optimizeLegibility; }
+	
+	/* Block */
+	
+	h1,
+	h2,
+	h3 { margin: 2em 0 1em; }
+	
+	/* Inline */
+
+
+/* 2. Interface
+----------------------------------------------------------------------------- */
+
+	/* RootClear Floats */
+	
+	article:after { height: 0; clear: both; content: "\0020"; display: block; visibility: hidden; }
+	
+	/* Article */
+	
+	article { max-width: 600px; margin: 60px auto; }
+
+
+/* 3. Respond
+----------------------------------------------------------------------------- */
+
+@media (max-device-width: 980px), (max-width: 980px) {
+
+	
+
+}

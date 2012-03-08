@@ -11,9 +11,11 @@
 		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 	</head>
-	<?php new Blog; ?>
 	<body>
-		<script>if (typeof window.JSON === 'undefined'){ document.write('<script src="json2.js"><\/script>'); }</script>
+		<article>
+<?php new Blog; ?>
+		</article>
+		<script>if (typeof window.JSON === 'undefined'){ document.write('<script src="js/json2.js"><\/script>'); }</script>
 		<script src="js/jquery.js"></script>
 		<script src="js/history.js"></script>
 		<script src="js/blog.js"></script>
