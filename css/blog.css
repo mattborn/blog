@@ -12,6 +12,7 @@
 	h1,
 	h2,
 	h3,
+	p,
 	time { margin: 0; padding: 0; }
 	
 	/* HTML5 */
@@ -27,9 +28,13 @@
 	
 	/* Block */
 	
-	h1,
+	h1 { font-size: 450%; letter-spacing: -.05em; line-height: 600px; margin: 0 0 75px; text-align: center; }
 	h2,
 	h3 { margin: 2em 0 1em; }
+	h2 { font-size: 175%; }
+	h3 { font-size: 125%; }
+	
+	p { margin: 0 0 1.5em; }
 	
 	/* Inline */
 
@@ -43,7 +48,7 @@
 	
 	/* Article */
 	
-	article { max-width: 600px; margin: 60px auto; }
+	article { max-width: 600px; margin: 0 auto; padding: 0 75px; }
 
 
 /* 3. Respond
