@@ -12,8 +12,11 @@
 	h1,
 	h2,
 	h3,
+	li,
+	ol,
 	p,
-	time { margin: 0; padding: 0; }
+	time,
+	ul { margin: 0; padding: 0; }
 	
 	/* HTML5 */
 	
@@ -30,11 +33,11 @@
 	
 	h1 { font-size: 450%; letter-spacing: -.05em; line-height: 600px; margin: 0 0 75px; text-align: center; }
 	h2,
-	h3 { margin: 2em 0 1em; }
+	h3 { line-height: 1; margin: 2em 0 .5em; }
 	h2 { font-size: 175%; }
 	h3 { font-size: 125%; }
 	
-	p { margin: 0 0 1.5em; }
+	ol, p, ul { margin: 0 0 1.5em; }
 	
 	/* Inline */
 
@@ -54,8 +57,10 @@
 /* 3. Respond
 ----------------------------------------------------------------------------- */
 
-@media (max-device-width: 980px), (max-width: 980px) {
+@media (max-device-width: 480px), (max-width: 480px) {
 
-	
+	body { font-size: 90%; }
+	h1 { line-height: 300px; margin: 0; }
+	article { padding: 0 25px; }
 
 }
